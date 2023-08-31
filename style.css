@@ -62,6 +62,19 @@ a,
     flex: 0 1 550px;
 }
 
+.button-top {
+    background-color: #3882F6; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
 .header-pt-2-image {
     display: flex;
 
@@ -152,4 +165,23 @@ a,
     font-size: 24px;
     color: #1F2937;
     font-weight: 1000;
+}
+
+.call-to-action {
+
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box {
+
+    display: flex;
+    height: 150px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    flex: 0 1 1200px; 
+    
 }
