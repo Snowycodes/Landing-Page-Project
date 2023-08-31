@@ -1,5 +1,5 @@
 * {
-    /* border: solid salmon 2px; */
+    /* border: solid red 2px; */
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -81,7 +81,7 @@ a,
     display: flex;
     justify-content: center;
     gap: 40px;
-    height: 460px;
+    height: 300px;
 }
 
 .prettypic {
@@ -107,7 +107,6 @@ a,
     margin: 0 0 0 5px;
     padding: 0;
     color: #1F2937;
-   
 }
 
 .pic-row-1,
@@ -119,4 +118,39 @@ a,
     flex-direction: column;
     text-align: center;
 
+}
+
+
+.quote-section {
+    display: flex;
+    background-color: #E5E7EB;
+    align-items: center;
+    flex-direction: column;
+    height: 250px;
+    justify-content: end;
+    
+   
+}
+
+.quote {
+   
+    width: 700px;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    margin: 0;
+
+    
+}
+
+.quoted-person {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 5px 0 50px 400px;
+    background-color: #E5E7EB;
+    font-size: 24px;
+    color: #1F2937;
+    font-weight: 1000;
+    
 }
