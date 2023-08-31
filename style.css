@@ -4,6 +4,9 @@
 }
 
 body {
+    display: flex;
+    flex-direction: column;
+
     margin: 0;
     padding: 0;
 }
@@ -16,7 +19,8 @@ header {
 .logo {
     font-size: 24px;
     font-weight: bolder;
-    color: #F9FAF8
+    color: #F9FAF8;
+    flex: 0 0 0;
 }
 
 a,
@@ -33,6 +37,7 @@ a,
     padding: 0;
     gap: 24px;
 
+
 }
 
 .title {
@@ -47,13 +52,13 @@ a,
 .header-pt-1 {
     display: flex;
     justify-content: space-between;
-    padding: 12px 350px 106px 350px;
+    padding: 12px 250px 106px 250px;
 }
 
 .header-pt-2 {
     display: flex;
     justify-content: space-between;
-    padding: 12px 350px 106px 350px;
+    padding: 12px 250px 106px 250px;
     flex: 1 0 auto;
 
 }
@@ -213,4 +218,16 @@ a,
     font-weight: bold;
     border-radius: 10px;
 
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    height: 80px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
